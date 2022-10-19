@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    number = s[ : : ]
+    if int(s) == int(number):
+        number = number
+    else:
+        number = -1
+
+    return number
+
+print(main('12343456565'))
